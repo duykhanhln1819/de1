@@ -79,7 +79,7 @@ set price = price * 1.05
 where Don_Vi = '2';
 
 delete from Patient
-where phone = NULL;
+where phone is NULL;
 
 select * from Medicine
 where price between 50000 and 200000;
